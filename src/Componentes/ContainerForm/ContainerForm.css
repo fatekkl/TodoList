@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+.form {
+    width: 600px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    border: 6px solid #132043;
+    background-color: #FDF0F0;
+    margin: 2% 0 1%;
+}
+
+.form h2 {
+    color: #132043;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    border-bottom: 4px solid #132043;
+}
+
+

@@ -1,0 +1,101 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 444px;
+    overflow: auto;
+    gap: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-create {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #132043;
+    border: none;
+    font-size: 22px;
+    line-height: 0;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+.button-create:hover {
+    transform: scale(1.1);
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+p[contentEditable="true"] {
+    outline: none;
+}
+
+.button-create {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #132043;
+    border: none;
+    font-size: 22px;
+    line-height: 0;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.button-create:hover {
+    transform: scale(1.1);
+}
+
+.li-checkbox {
+    width: 12px;
+    height: 12px;
+}
+
+.delete-button- {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #132043;
+    border: none;
+    font-size: 22px;
+    line-height: 0;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.delete-button-:hover {
+    transform: scale(1.1);
+}
+
+.items-li {
+    background-color: #fff;
+    width: 100%;
+    max-width: 454px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 22px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.items-li p::selection {
+    background: transparent;
+    color: inherit;
+  }
