@@ -1,6 +1,6 @@
 # todo list with rest-api
 
-run: 'npm install react-scripts'
+run: 'npm install react'
 
 run: 'npm run dev'
 
